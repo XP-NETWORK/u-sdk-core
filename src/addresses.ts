@@ -92,6 +92,17 @@ const BNB_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2'
 }
 
+// BNB v3 addresses
+const BNB_TESTNET_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0xB743cF57DfC5Db7687380De82b61dC668EdB9a96',
+  multicallAddress: '0x62d1FCA92e2E80b75DB9E2187d2E2D8e75b3bae9',
+  quoterAddress: '0x7C5EFD20B410AdEf222A4cE6d7D2970c0775F46d',
+  v3MigratorAddress: '0xb28844ed31bB2031796dd44Abeb530B69dC79E11',
+  nonfungiblePositionManagerAddress: '0xa09D1EEC34fEEDe67289Cd11482D9D14459D85f6',
+  tickLensAddress: '0xbF21C30Bd5274b76c4C1AF81C096425E23D3EaaC',
+  swapRouter02Address: '0xcd4f2884F0596024e9fdFCb317C3D634C8aF8c22'
+}
+
 // optimism goerli addresses
 const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0xB656dA17129e7EB733A557f4EBc57B76CFbB5d10',
