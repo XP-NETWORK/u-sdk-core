@@ -27,6 +27,7 @@ export const UNI_ADDRESSES: AddressMap = constructSameAddressMap('0x1f9840a85d5a
   ChainId.ARBITRUM_ONE,
   ChainId.POLYGON,
   ChainId.POLYGON_MUMBAI,
+  ChainId.BNB_TESTNET,
   ChainId.SEPOLIA
 ])
 
@@ -159,6 +160,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.ARBITRUM_ONE]: ARBITRUM_ONE_ADDRESSES,
   [ChainId.POLYGON]: POLYGON_ADDRESSES,
   [ChainId.POLYGON_MUMBAI]: POLYGON_ADDRESSES,
+  [ChainId.BNB_TESTNET]: BNB_ADDRESSES,
   [ChainId.GOERLI]: GOERLI_ADDRESSES,
   [ChainId.CELO]: CELO_ADDRESSES,
   [ChainId.CELO_ALFAJORES]: CELO_ADDRESSES,
