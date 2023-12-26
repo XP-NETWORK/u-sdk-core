@@ -94,13 +94,13 @@ const BNB_ADDRESSES: ChainAddresses = {
 
 // BNB v3 addresses
 const BNB_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xB743cF57DfC5Db7687380De82b61dC668EdB9a96',
-  multicallAddress: '0x62d1FCA92e2E80b75DB9E2187d2E2D8e75b3bae9',
-  quoterAddress: '0x7C5EFD20B410AdEf222A4cE6d7D2970c0775F46d',
-  v3MigratorAddress: '0xb28844ed31bB2031796dd44Abeb530B69dC79E11',
-  nonfungiblePositionManagerAddress: '0xa09D1EEC34fEEDe67289Cd11482D9D14459D85f6',
-  tickLensAddress: '0xbF21C30Bd5274b76c4C1AF81C096425E23D3EaaC',
-  swapRouter02Address: '0xcd4f2884F0596024e9fdFCb317C3D634C8aF8c22'
+  v3CoreFactoryAddress: '0x02d5685e63665D81316C50806780A91D5c99d46f',
+  multicallAddress: '0x62d1FCA92e2E80b75DB9E2187d2E2D8e75b3bae9', // A
+  quoterAddress: '0x7C5EFD20B410AdEf222A4cE6d7D2970c0775F46d', // A
+  v3MigratorAddress: '0xb28844ed31bB2031796dd44Abeb530B69dC79E11', // A
+  nonfungiblePositionManagerAddress: '0x81BD91352dd28625BCD73B7c6Ef4Cc4D4c462e5b',
+  tickLensAddress: '0xbF21C30Bd5274b76c4C1AF81C096425E23D3EaaC', // A
+  swapRouter02Address: '0x1A80fF4C3593B2e939D3Ca54731E87fe11640989'
 }
 
 // optimism goerli addresses
